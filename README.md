@@ -22,6 +22,20 @@
 </repositories>
 ```
 
+# Spring Initializr URL
+1.官网默认地址```(17/21/24)```
+```
+https://start.spring.io/
+```
+2.阿里云代理地址```(8/11/17/19)```
+```
+http://start.aliyun.com
+```
+3.国内第三方代理地址```(17/21/24)```
+```
+https://start.springboot.io
+```
+
 # Maven
 写在`setting`中
 ```
