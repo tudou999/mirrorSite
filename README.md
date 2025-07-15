@@ -48,5 +48,11 @@ https://start.springboot.io
    	</mirror> 
   </mirrors>
 ```
+
+# Maven 包手动安装
+```bash
+mvn install:install-file -Dfile="E:\FirefoxDownload\langchain4j-open-ai-1.1.0.jar" -DgroupId="dev.langchain4j" -DartifactId="langchain4j-open-ai" -Dversion="1.1.0" -Dpackaging=jar
+```
+
 # Maven 中央仓库地址
 - https://mvnrepository.com/
