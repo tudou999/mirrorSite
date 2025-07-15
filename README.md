@@ -48,3 +48,5 @@ https://start.springboot.io
    	</mirror> 
   </mirrors>
 ```
+# Maven 中央仓库地址
+- https://mvnrepository.com/
