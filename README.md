@@ -84,3 +84,8 @@ pip config set install.trusted-host mirrors.aliyun.com
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple/
 pip config set install.trusted-host pypi.tuna.tsinghua.edu.cn
 ```
+
+## 官方源
+```bash
+pip config set global.index-url  https://pypi.org/simple  
+```
