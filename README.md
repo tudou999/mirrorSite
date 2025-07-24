@@ -69,3 +69,18 @@ mvn install:install-file -Dfile="E:\FirefoxDownload\langchain4j-open-ai-1.1.0.ja
 ```bash
 git config --global http.proxy http://127.0.0.1:7890
 ```
+
+---
+
+# pip
+## 阿里源
+```bash
+pip config set global.index-url https://mirrors.aliyun.com/pypi/simple
+pip config set install.trusted-host mirrors.aliyun.com
+```
+
+## 清华源
+```bash
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple/
+pip config set install.trusted-host pypi.tuna.tsinghua.edu.cn
+```
