@@ -10,7 +10,10 @@
     ]
 ```
 
+---
+
 # Springboot
+## 镜像设置
 写在`pom.xml`中
 ```
  <repositories>
@@ -22,7 +25,7 @@
 </repositories>
 ```
 
-# Spring Initializr URL
+## Spring Initializr URL
 1.官网默认地址```(17/21/24)```
 ```
 https://start.spring.io/
@@ -36,7 +39,10 @@ http://start.aliyun.com
 https://start.springboot.io
 ```
 
+---
+
 # Maven
+## 镜像设置
 写在`setting`中
 ```
   <mirrors>
@@ -49,13 +55,15 @@ https://start.springboot.io
   </mirrors>
 ```
 
-# Maven 包手动安装
+## Maven 包手动安装
 ```bash
 mvn install:install-file -Dfile="E:\FirefoxDownload\langchain4j-open-ai-1.1.0.jar" -DgroupId="dev.langchain4j" -DartifactId="langchain4j-open-ai" -Dversion="1.1.0" -Dpackaging=jar
 ```
 
-# Maven 中央仓库地址
+## 中央仓库地址
 - https://mvnrepository.com/
+
+---
 
 # Git 代理设置
 ```bash
