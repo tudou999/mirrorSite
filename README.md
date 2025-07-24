@@ -56,3 +56,8 @@ mvn install:install-file -Dfile="E:\FirefoxDownload\langchain4j-open-ai-1.1.0.ja
 
 # Maven 中央仓库地址
 - https://mvnrepository.com/
+
+# Git 代理设置
+```bash
+git config --global http.proxy http://127.0.0.1:7890
+```
